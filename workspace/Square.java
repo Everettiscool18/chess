@@ -1,5 +1,4 @@
 
-
 import java.awt.Color;
 import java.awt.Graphics;
 import java.util.ArrayList;
@@ -11,7 +10,7 @@ import javax.swing.*;
 //to represent the chessboard.
 @SuppressWarnings("serial")
 public class Square extends JComponent {
-	//a reference back to the board that stores this square.
+    //a reference back to the board that stores this square.
     private Board b;
     
     //true for white, false for black.
@@ -93,3 +92,4 @@ public class Square extends JComponent {
     
     
 }
+
