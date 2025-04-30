@@ -1,16 +1,17 @@
+//Everett Chun
 
 import java.awt.Color;
 import java.awt.Graphics;
 import java.util.ArrayList;
 
 import javax.swing.*;
- 
+
 
 //Please read the following class carefully! It represents a single chess board square and is what you'll be using
 //to represent the chessboard.
 @SuppressWarnings("serial")
 public class Square extends JComponent {
-    //a reference back to the board that stores this square.
+	//a reference back to the board that stores this square.
     private Board b;
     
     //true for white, false for black.
@@ -28,7 +29,6 @@ public class Square extends JComponent {
     
     
     public Square(Board b, boolean isWhite, int row, int col) {
- 
         
         this.b = b;
         this.color = isWhite;
@@ -93,4 +93,3 @@ public class Square extends JComponent {
     
     
 }
-
