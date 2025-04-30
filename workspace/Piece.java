@@ -1,3 +1,7 @@
+// Everett Chun
+// Rook
+// Moves in straight lines
+
 
 import java.awt.Graphics;
 import java.awt.Image;
